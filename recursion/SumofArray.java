@@ -5,10 +5,11 @@ public class SumofArray {
         if(n<0){
             return 0;
         }
+        System.out.print(a[n]+" ");
         return a[n]+sumofarray(a,n-1);
     }
     public static void main(String[] rags){
         int arr[]={1,2,3,4,5,8};
-        System.out.print(sumofarray(arr,5));
+        System.out.println(sumofarray(arr,5));
     }
 }
