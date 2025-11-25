@@ -15,6 +15,7 @@ public class DiffEvenOdd {
            }
             n/=10;
         }
-        System.out.println(evensum+" "+oddsum);
+        int diff=evensum>oddsum?evensum-oddsum:oddsum-evensum;
+        System.out.println(diff);
     }
 }
