@@ -6,6 +6,6 @@ public class PositiveorNegative {
         int n=s.nextInt();
         String result=n>0?"positive":"negative";
         System.out.println(result);
-       
+       s.close();
     }
 }
