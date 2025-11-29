@@ -1,0 +1,209 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "ArraySum",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "BesttimetoBuy",
+            "request": "launch",
+            "mainClass": "BesttimetoBuy",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Biotonic",
+            "request": "launch",
+            "mainClass": "Biotonic",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceMaxSybArray",
+            "request": "launch",
+            "mainClass": "BruteForceMaxSybArray",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyofNum",
+            "request": "launch",
+            "mainClass": "FrequencyofNum",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "JumpGame",
+            "request": "launch",
+            "mainClass": "JumpGame",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "JumpGame2",
+            "request": "launch",
+            "mainClass": "JumpGame2",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "KsumSubarray",
+            "request": "launch",
+            "mainClass": "KsumSubarray",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Majorityelement",
+            "request": "launch",
+            "mainClass": "Majorityelement",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "MergeTwoSortedArray",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Monotonic",
+            "request": "launch",
+            "mainClass": "Monotonic",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "MostCOntainingWater",
+            "request": "launch",
+            "mainClass": "MostCOntainingWater",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "MoveZero",
+            "request": "launch",
+            "mainClass": "MoveZero",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Nextpermu",
+            "request": "launch",
+            "mainClass": "Nextpermu",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "PairSum",
+            "request": "launch",
+            "mainClass": "PairSum",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Prefix",
+            "request": "launch",
+            "mainClass": "Prefix",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "RemoveDuplicates",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "RightRotate",
+            "request": "launch",
+            "mainClass": "RightRotate",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Rotatearray",
+            "request": "launch",
+            "mainClass": "Rotatearray",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargest",
+            "request": "launch",
+            "mainClass": "SecondLargest",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "TrappingRainWater",
+            "projectName": "onedarray_b5c6006e"
+        },
+        {
+            "type": "java",
+            "name": "Trappingwater",
+            "request": "launch",
+            "mainClass": "Trappingwater",
+            "projectName": "onedarray_b5c6006e"
+        }
+    ]
+}
