@@ -12,10 +12,10 @@ void traverse() {
     }
 }
 void peek(){
-    System.out.println(arr[0]);
+    System.out.println(arr[top]);
 }
 int pop(){
-    return top--;
+    return arr[top--];
 }
 
   

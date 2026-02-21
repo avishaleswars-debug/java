@@ -1,4 +1,6 @@
-class Node{
+
+public class DoubleLinkedList {
+    class Node{
     int data;
     Node next;
     Node prev;
@@ -7,20 +9,19 @@ this.data=data;
 next=null;
 prev=null;
     }}
-public class DoubleLinkedList {
     Node head;
 void append(int data){
     Node newNode =new Node(data);
 if(head==null){
     head=newNode;
-    newNode.prev=null;}
+   // newNode.prev=null;
+   }
 else {
     Node temp=head;
     while (temp.next!=null) {
       temp=temp.next;  }
         temp.next=newNode;
         newNode.prev=temp;
-
      }}
      void print(){
         Node temp=head;
@@ -48,4 +49,5 @@ current=current.prev;
         dl.reverse();
         dl.print();
  } 
+ 
 }

@@ -6,6 +6,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoubleLinkedList",
+            "request": "launch",
+            "mainClass": "DoubleLinkedList",
+            "projectName": "java_2978120d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
