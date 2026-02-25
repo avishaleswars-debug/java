@@ -4,9 +4,10 @@ public class GreaterElement {
         Stack<Integer> s=new Stack<>();
         int[] arr={1,2,3,4,5};
         int[] ans=new int[arr.length];
-        for(int i=arr.length-1;i>=0;i--){
+        for(int i=0;i<arr.length;i++)
+        {
 
-    while(!s.isEmpty()&&s.peek()<=arr[i]){
+    while(!s.isEmpty()&&s.peek()>arr[i]){
         s.pop();
     }
     if(s.isEmpty())
