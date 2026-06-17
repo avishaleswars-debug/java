@@ -29,6 +29,21 @@ System.out.print(root.data+ " ");
 preorder(root.left);
 preorder(root.right);
         }
+        void postorder(Node root){
+              if (root == null) return;
+preorder(root.left);
+preorder(root.right);
+System.out.print(root.data+ " ");
+
+        }
+           void inorder(Node root){
+              if (root == null) return;
+preorder(root.left);
+System.out.print(root.data+ " ");
+preorder(root.right);
+
+
+        }
         Node getroot(){
             return root;
         }
