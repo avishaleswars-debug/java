@@ -23,6 +23,15 @@ if(root.data<data){
 }
 return root;
         }
+        void preorder(Node root){
+              if (root == null) return;
+System.out.print(root.data+ " ");
+preorder(root.left);
+preorder(root.right);
+        }
+        Node getroot(){
+            return root;
+        }
 }
 class Implementaion{
     public static void main(String[] args) {
@@ -31,5 +40,6 @@ class Implementaion{
          myTree.insert(10);
         myTree.insert(5);
         myTree.insert(15);
+        myTree.preorder(myTree.getroot());
     }
 }
