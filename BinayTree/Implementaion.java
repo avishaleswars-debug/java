@@ -1,3 +1,4 @@
+import java.util.*;
 class Tree{
     Node root;
     
@@ -44,6 +45,16 @@ preorder(root.right);
 
 
         }
+        void levelorder(Node root){
+            Queue<Node> queue=new LinkedList<>();
+            queue.offer(root);
+            while(!queue.isEmpty()){
+                Node ele=queue.poll();
+                System.out.print(ele.data+" ");
+                if(ele.left!=null)queue.offer(ele.left);
+                if(ele.right!=null)queue.offer(ele.right);
+            }
+        }
         Node getroot(){
             return root;
         }
@@ -51,10 +62,12 @@ preorder(root.right);
 class Implementaion{
     public static void main(String[] args) {
         Tree myTree=new Tree();
-        myTree.insert(10);
-         myTree.insert(10);
-        myTree.insert(5);
-        myTree.insert(15);
-        myTree.preorder(myTree.getroot());
-    }
+        myTree.insert(3);
+        myTree.insert(8);
+        myTree.insert(20);
+        myTree.insert(40);
+         myTree.insert(30);
+      //  myTree.preorder(myTree.getroot());
+        myTree.levelorder(myTree.getroot());
+     }
 }
