@@ -55,7 +55,7 @@ preorder(root.right);
                 if(ele.right!=null)queue.offer(ele.right);
             }
         }
-        void levelorderiterative(Node root){
+        void preorderiterative(Node root){
          java.util.Stack<Node> st = new java.util.Stack<>();
             st.push(root);
             while(!st.isEmpty()){
@@ -112,6 +112,6 @@ class Implementaion{
       //  myTree.preorder(myTree.getroot());
         myTree.levelorder(myTree.getroot());
         System.out.println();
-        myTree.levelorderiterative(myTree.getroot());
+        myTree.preorderiterative(myTree.getroot());
      }
 }
