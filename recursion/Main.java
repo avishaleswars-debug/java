@@ -5,13 +5,14 @@ public class Main {
         if (n == 0) {
             return 1;
         } 
-        int factorialOfNMinusOne = factorial(n - 1);
-        System.out.println(factorialOfNMinusOne);
-            return factorialOfNMinusOne;
+      
+     
+      return factorial(n-1)+n;
+            
         
     }
     public static void main(String[] args) {
     
-        System.out.println(factorial(5));
+        System.out.print(factorial(5));
     }
 }
