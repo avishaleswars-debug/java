@@ -8,6 +8,26 @@ public class MaxLength {
         }
         return 1 + Math.max(findmaxlengthoftree(root.left), findmaxlengthoftree(root.right));
     }
+     public int findmaxsumoftree(Node root) {
+       
+    if (root == null) {
+        return 0;
+    }
+    
+    // If a subtree sum is negative, ignore it by taking Math.max with 0
+    int leftSum = Math.max(0, findmaxsumoftree(root.left));
+    int rightSum = Math.max(0, findmaxsumoftree(root.right));
+    
+    return root.data + Math.max(leftSum, rightSum);
+}
+public int findbalancedtree(Node root){
+    if(root==null)return 0;
+    int l=1+findbalancedtree(root.left);
+    int r=1+findbalancedtree(root.right);
+    return l-r;
+
+}
+    
 
     // Finished implementation of the recursive Binary Search Tree (BST) insertion
     public Node insert(Node root, int data) {
