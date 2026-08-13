@@ -25,10 +25,7 @@ public int findbalancedtree(Node root){
     int l=1+findbalancedtree(root.left);
     int r=1+findbalancedtree(root.right);
     return l-r;
-
 }
-    
-
     // Finished implementation of the recursive Binary Search Tree (BST) insertion
     public Node insert(Node root, int data) {
         // Base case: If the tree or subtree is empty, create and return the new node
