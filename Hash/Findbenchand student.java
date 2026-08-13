@@ -7,9 +7,9 @@ public static void main(String args[]){
     int[][] arr={{},{}};
     HashMap<Integer,HashSet<Integer>> map=new HashMap<>();
     for(int[] stud:arr){
-        int st=arr[0];
-        int ben=arr[1];
-        if(!map.contains(ben)){
+        int st=stud[0];
+        int ben=stud[1];
+        if(!map.containsKey(ben)){
 map.put(ben,new HashSet<>());
         }
         map.get(ben).add(st);
