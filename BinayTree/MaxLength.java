@@ -8,6 +8,12 @@ public class MaxLength {
         }
         return 1 + Math.max(findmaxlengthoftree(root.left), findmaxlengthoftree(root.right));
     }
+    public int maxheightofeachnode(Node root){
+        if(root==null)return 0;
+        int left=maxheightofeachnode(root.left);
+        int right=maxheightofeachnode(root.right);
+        return 1+Math.max(left,right);
+    }
      public int findmaxsumoftree(Node root) {
        
     if (root == null) {
